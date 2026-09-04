@@ -1,29 +1,19 @@
 # Samuel Evans Personal Website
 
-This repository contains a minimal static personal website for Samuel Evans. Home and About are combined into a single page.
+Personal brand website for **Samuel Evans** — Software Engineer & Computer Scientist.
 
 **Live Site:** [https://samuel-evan-s.github.io/portfolio/](https://samuel-evan-s.github.io/portfolio/)
 
-## Local development
+## Navigation
 
-From the project root, run:
+- **Brand:** `samuel.evans`
+- **Pages:** `home`, `projects`, `work`, `education`
 
-```bash
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000` in your browser.
-
-## Navigation Structure
-
-- Wordmark: `samuel.evans`
-- Menu: `home   projects   work   education`
-
-## Repository structure
+## Repository Structure
 
 ```text
 /
-├── index.html          # Combined Home + About
+├── index.html
 ├── projects.html
 ├── work.html
 ├── education.html
@@ -44,22 +34,15 @@ Then open `http://localhost:8000` in your browser.
 │   └── resume.pdf
 ├── 404.html
 ├── robots.txt
-├── sitemap.xml
-├── README.md
-└── .nojekyll
+└── sitemap.xml
 ```
 
-## Adding projects
+## Local Development
 
-1. Create a new project detail page in the `project/` folder.
-2. Add a card for it on `projects.html`.
-3. Link the project from the homepage or other relevant pages.
+Run a local HTTP server from the root directory:
 
-## Updating the résumé
+```bash
+python3 -m http.server 8000
+```
 
-Replace the placeholder file in `resume/resume.pdf` with your actual résumé PDF.
-
-## Deployment
-
-The site is hosted on GitHub Pages at:
-[https://samuel-evan-s.github.io/portfolio/](https://samuel-evan-s.github.io/portfolio/)
+Then visit `http://localhost:8000` in your browser.
