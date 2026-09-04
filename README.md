@@ -1,6 +1,8 @@
 # Samuel Evans Personal Website
 
-This repository contains a minimal static personal website for Samuel Evans. Home and About are combined into a single page. It is hosted directly without a build step.
+This repository contains a minimal static personal website for Samuel Evans. Home and About are combined into a single page.
+
+**Live Site:** [https://samuel-evan-s.github.io/portfolio/](https://samuel-evan-s.github.io/portfolio/)
 
 ## Local development
 
@@ -57,9 +59,7 @@ Then open `http://localhost:8000` in your browser.
 
 Replace the placeholder file in `resume/resume.pdf` with your actual résumé PDF.
 
-## Deploying to GitHub Pages
+## Deployment
 
-1. Push this repository to GitHub.
-2. Enable GitHub Pages in repository settings.
-3. Choose the root branch.
-4. Save the settings and wait for the site to publish.
+The site is hosted on GitHub Pages at:
+[https://samuel-evan-s.github.io/portfolio/](https://samuel-evan-s.github.io/portfolio/)
