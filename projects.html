@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Samuel Evans</title>
+  <meta name="description"
+    content="Selected software engineering, machine learning, artificial intelligence, data, and computer science projects by Samuel Evans." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand" aria-label="Samuel Evans home">samuel.evans</a>
+
+      <div class="nav-wrap">
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+        </button>
+
+        <nav class="nav" aria-label="Main navigation">
+          <a href="index.html">home</a>
+          <a href="projects.html" aria-current="page">projects</a>
+          <a href="work.html">work</a>
+          <a href="education.html">education</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container reveal">
+        <div class="section-title">portfolio</div>
+        <h1>projects</h1>
+        <p class="lead">Technical work across software systems, data engineering, and artificial intelligence.</p>
+      </div>
+    </section>
+
+    <section style="padding-top: 0;">
+      <div class="container reveal">
+        <div class="filter-bar" aria-label="Project categories">
+          <button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">all</button>
+          <button class="filter-chip" type="button" data-filter="backend" aria-pressed="false">backend</button>
+          <button class="filter-chip" type="button" data-filter="ai" aria-pressed="false">ai</button>
+          <button class="filter-chip" type="button" data-filter="ml" aria-pressed="false">ml</button>
+          <button class="filter-chip" type="button" data-filter="data" aria-pressed="false">data</button>
+          <button class="filter-chip" type="button" data-filter="healthcare" aria-pressed="false">healthcare</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="card-grid">
+          <!-- <article class="card project-card reveal" data-category="backend healthcare systems">
+            <div class="card-header">
+              <h2 class="card-title"><a href="work/savannah-informatics.html">Savannah Informatics</a></h2>
+              <span class="card-category">Backend / Systems</span>
+            </div>
+            <p class="card-copy">Production backend work connected to electronic medical record systems, HL7 FHIR workflows, and interoperability-focused API development.</p>
+            <div class="tag-list">
+              <span class="tag">Python</span>
+              <span class="tag">Django</span>
+              <span class="tag">Go</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">FHIR</span>
+              <span class="tag">Healthcare</span>
+            </div>
+            <a class="link-arrow" href="work/savannah-informatics.html">view project →</a>
+          </article> -->
+
+          <article class="card project-card reveal" data-category="ai data">
+            <div class="card-header">
+              <h2 class="card-title"><a href="project/document-intelligence.html">AI Document Intelligence</a></h2>
+              <span class="card-category">AI / Information Retrieval</span>
+            </div>
+            <p class="card-copy">Parsing, OCR, metadata extraction, and semantic retrieval over large document
+              collections.</p>
+            <div class="tag-list">
+              <span class="tag">RAG</span>
+              <span class="tag">Embeddings</span>
+              <span class="tag">OCR</span>
+              <span class="tag">LLMs</span>
+            </div>
+            <a class="link-arrow" href="project/document-intelligence.html">view project →</a>
+          </article>
+
+          <article class="card project-card reveal" data-category="ml ai">
+            <div class="card-header">
+              <h2 class="card-title"><a href="project/brain-tumor-classification.html">Brain Tumor Classification</a>
+              </h2>
+              <span class="card-category">ML / Computer Vision</span>
+            </div>
+            <p class="card-copy">A CNN-based image classification workflow using preprocessing, augmentation, and
+              evaluation.</p>
+            <div class="tag-list">
+              <span class="tag">TensorFlow</span>
+              <span class="tag">CNNs</span>
+              <span class="tag">Computer Vision</span>
+            </div>
+            <a class="link-arrow" href="project/brain-tumor-classification.html">view project →</a>
+          </article>
+
+          <article class="card project-card reveal" data-category="ml data">
+            <div class="card-header">
+              <h2 class="card-title"><a href="project/diabetes-risk.html">Diabetes Risk Classification</a></h2>
+              <span class="card-category">ML / Applied AI</span>
+            </div>
+            <p class="card-copy">Comparative model evaluation on a structured dataset with a focus on learning and
+              benchmarking.</p>
+            <div class="tag-list">
+              <span class="tag">Python</span>
+              <span class="tag">Scikit-learn</span>
+              <span class="tag">XGBoost</span>
+              <span class="tag">Pandas</span>
+            </div>
+            <a class="link-arrow" href="project/diabetes-risk.html">view project →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container reveal">
+        <div class="contact-block">
+          <div class="contact-prompt">&gt; let's talk</div>
+          <div class="contact-links">
+            <a href="mailto:samuelevans837@gmail.com">email</a>
+            <a href="https://github.com" target="_blank" rel="noreferrer">github</a>
+            <a href="https://linkedin.com/in/samuelmevans" target="_blank" rel="noreferrer">linkedin</a>
+            <a href="resume/resume.pdf" target="_blank" rel="noreferrer">resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">samuel.evans</div>
+      <div class="footer-links">
+        <a href="https://github.com" target="_blank" rel="noreferrer">github</a>
+        <a href="https://linkedin.com/in/samuelmevans" target="_blank" rel="noreferrer">linkedin</a>
+        <a href="mailto:samuelevans837@gmail.com">email</a>
+      </div>
+      <div>© <span data-current-year></span> samuel evans</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
